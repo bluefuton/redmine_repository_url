@@ -1,0 +1,6 @@
+= redmine_svn_url
+
+Show Subversion URL on project overview.
+
+Credits:
+Author: Chris Rosser <chris@bluefuton.com>
