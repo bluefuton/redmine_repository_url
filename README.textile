@@ -4,8 +4,6 @@ Show repository URL on Redmine project overview.
 
 This is designed for the scenario where you've used a 'file://' URL to point to your repository in Redmine's config, but you need your developers to know what the remote access URL is.
 
-!https://github.com/bluefuton/redmine_repository_url/raw/master/screenshot.png!
-
 h3. Installation
 
 Clone into Redmine's plugins folder.
