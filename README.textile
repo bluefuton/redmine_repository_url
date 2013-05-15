@@ -1,4 +1,4 @@
-= redmine_repository_url
+h1. redmine_repository_url
 
 Show repository URL on Redmine project overview.
 
