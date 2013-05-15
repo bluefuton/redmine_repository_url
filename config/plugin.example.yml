@@ -1,0 +1,3 @@
+production:
+  subversion_url: https://subversion.mydomain.net
+  git_url: https://git.mydomain.com

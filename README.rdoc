@@ -1,8 +1,23 @@
-= redmine_svn_url
+h1. redmine_repository_url
 
-Show Subversion URL on project overview.
+A plugin for "Redmine":http://www.redmine.org/ to show a repository URL on Redmine project overview.
 
 This is designed for the scenario where you've used a 'file://' URL to point to your repository on the Redmine server, but you need your developers to know what the remote access URL is.
 
-Credits:
+Git and Subversion are supported.
+
+h2. Installation
+
+Clone into Redmine's plugins folder.
+
+Inside the plugin's config folder, copy plugin.example.yml to plugin.yml and add your repository URLs to it. For example:
+
+<pre>
+production:
+  subversion_url: https://subversion.mydomain.net
+  git_url: https://git.mydomain.com
+</pre>
+
+h2. Credits
+
 Author: Chris Rosser <chris@bluefuton.com>

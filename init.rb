@@ -1,9 +1,9 @@
 require 'redmine'
-require 'svn_url_hooks'
+require 'repository_url_hooks'
 
-Redmine::Plugin.register :redmine_svn_url do
-  name 'Show Subversion URL'
+Redmine::Plugin.register :redmine_repository_url do
+  name 'Show repository URL'
   author 'Chris Rosser'
-  description 'Show Subversion URL on project overview'
-  version '0.1'
+  description 'Show repository URL on project overview'
+  version '0.2'
 end
